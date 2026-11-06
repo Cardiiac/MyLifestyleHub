@@ -2,10 +2,11 @@
 //  MyLifestyleHubApp.swift
 //  MyLifestyleHub
 //
-//  Created by user301904 on 11/5/26.
+//  Created for Evaluación Continua PA3 - Pregunta 6 (Proyecto Integrador)
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct MyLifestyleHubApp: App {
@@ -13,5 +14,6 @@ struct MyLifestyleHubApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: ActividadEntity.self)
     }
 }

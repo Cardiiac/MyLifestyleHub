@@ -2,23 +2,13 @@
 //  ContentView.swift
 //  MyLifestyleHub
 //
-//  Created by user301904 on 11/5/26.
+//  Created for Evaluación Continua PA3 - Pregunta 6 (Proyecto Integrador)
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        MainTabView()
     }
-}
-
-#Preview {
-    ContentView()
 }
